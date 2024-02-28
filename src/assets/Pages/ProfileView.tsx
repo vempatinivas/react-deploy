@@ -10,7 +10,7 @@ const ProfileView = () => {
   //const isIdIncluded = profiles.includes(profid);
   return (
     <>
-      {profiles.includes(params.id) ? (
+      {profiles.includes(params.id as string) ? (
         <div> Profile {params.id}</div>
       ) : (
         <NotFound />

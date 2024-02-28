@@ -7,7 +7,7 @@ import Home from "./assets/Pages/Home";
 import About from "./assets/Pages/About";
 import Profile from "./assets/Pages/Profile";
 import ProfileView from "./assets/Pages/ProfileView";
-import NotFound from "./assets/Pages/notFound";
+import NotFound from "./assets/Pages/NotFound";
 
 const router = createBrowserRouter([
   {
